@@ -1,3 +1,6 @@
+This article will contain the definition of SVD. And How the SVD problem is transformed into eigenvalues problems and then solved using eigenvalues and eigenvectors. This article is going to be a bit more toward linear algebra but we will also see the pythonic way to find the eigenvalues and eigenvectors and SVD.
+
+
 Theorem: SVD theorem states that every matrix can be decomposed into a sequence of three elementary transformations: a rotation in input space U, a scaling matrix Σ, and a rotation matrix in output space V.
 Where A is of size mxn, U is of size mxm, Σ is of size mxn, and V is of size nxn.
 U and V are known as unitary matrices in linear algebraic terms.
