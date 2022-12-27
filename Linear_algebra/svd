@@ -1,0 +1,5 @@
+Theorem: SVD theorem states that every matrix can be decomposed into a sequence of three elementary transformations: a rotation in input space U, a scaling matrix Σ, and a rotation matrix in output space V.
+Where A is of size mxn, U is of size mxm, Σ is of size mxn, and V is of size nxn.
+U and V are known as unitary matrices in linear algebraic terms.
+Geometric Inference of SVD:
+U and V_transpose are unitary, or rotation matrices, so they preserve the angles between the vectors. So, first, the eigenvectors v1,v2 of V (they're orthogonal) are mapped into two orthogonal basis vectors e1,e2, then scaled by Σ into orthogonal σ1e1,σ2e2, then mapped by unitary U to σ1u1,σ2u2. The linear map A is fully defined by the transformation of these vectors since every vector can be decomposed by the basis of V, and we know the linear map rules for the basis vectors.
